@@ -1,0 +1,82 @@
+body {
+    padding: 0 26px;
+    background-color: #0062a8;
+    /* IE10 Consumer Preview */
+    background-image: -ms-radial-gradient(center, circle farthest-corner, #1231FF 0%, #2A82BD 100%);
+
+    /* Mozilla Firefox */
+    background-image: -moz-radial-gradient(center, circle farthest-corner, #1231FF 0%, #2A82BD 100%);
+
+    /* Opera */
+    background-image: -o-radial-gradient(center, circle farthest-corner, #1231FF 0%, #2A82BD 100%);
+
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(radial, center center, 0, center center, 505, color-stop(0, #1231FF), color-stop(1, #2A82BD));
+
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-radial-gradient(center, circle farthest-corner, #1231FF 0%, #2A82BD 100%);
+
+    /* W3C Markup, IE10 Release Preview */
+    background-image: radial-gradient(circle farthest-corner at center, #1231FF 0%, #2A82BD 100%);
+    background-image: url('intel-software-header.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+
+    font-size: 13px;
+    font-family: Helvetica, arial, freesans, clean, sans-serif;
+}
+h1 {
+    font-family: sans-serif;
+    font-size: 32px;
+    text-shadow: 2px 2px 1px #444;
+    color: #EEE;
+}
+
+.legend {
+    color: white;
+}
+
+.legend .legend-title {
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 90%;
+}
+.my-legend .legend-scale ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+}
+.legend .legend-scale ul li {
+    display: block;
+    float: left;
+    width: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 80%;
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+.legend ul.legend-labels li span {
+    display: block;
+    float: left;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 5px;
+}
+.legend ul.legend-labels li span.x { background: red; }
+.legend ul.legend-labels li span.y { background: green; }
+.legend ul.legend-labels li span.z { background: #0099ff; }
+
+.legend .legend-source {
+    font-size: 70%;
+    clear: both;
+}
+.legend a {
+    color: white;
+
+}
